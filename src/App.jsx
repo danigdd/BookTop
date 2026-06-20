@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import styled from "styled-components";
 import "./App.css";
 import Login from "./Components/Login";
+import "@fontsource-variable/murecho";
 
 function App() {
   return (

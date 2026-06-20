@@ -1,6 +1,7 @@
 * {
   margin: 0;
   background-color: red;
+  box-sizing: border-box;
 }
 :root {
   /* Backgrounds */
@@ -28,4 +29,8 @@
 
   /* Shadows */
   --shadow: rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: "Murecho Variable", sans-serif;
 }
