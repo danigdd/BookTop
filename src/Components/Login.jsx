@@ -112,6 +112,19 @@ const FormBlock = styled.div`
     padding: 10px 10px;
     border: 0;
     border-radius: 10px;
+    transition: 0.4s;
+    outline: none;
+  }
+
+  input:valid {
+    box-shadow: 0 0 0 3px var(--color-sucess);
+  }
+  input: invalid {
+    box-shadow: 0 0 0 3px var(--color-error);
+  }
+
+  input:focus {
+    box-shadow: 0 0 0 3px var(--color-warning);
   }
 `;
 
@@ -140,5 +153,6 @@ const CreateAccount = styled.div`
 
 const Link = styled.span`
   cursor: pointer;
+  color: hsl(248, 68%, 23%);
 `;
 export default Login;
